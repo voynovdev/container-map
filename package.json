@@ -1,0 +1,33 @@
+{
+  "name": "container-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+		"build": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voynovdev/container-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voynovdev/container-map/issues"
+  },
+  "homepage": "https://github.com/voynovdev/container-map#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jest": "^28.5.0",
+    "globals": "^15.3.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
